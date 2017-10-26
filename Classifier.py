@@ -43,8 +43,8 @@ def checkingmail(example):
 
 data = DataFrame({'message': [], 'class': []})
 
-data = data.append(dataFrameFromDirectory('F:/project/emails/spam', 'spam'))
-data = data.append(dataFrameFromDirectory('F:/project/emails/ham', 'ham'))
+data = data.append(dataFrameFromDirectory('emails/spam', 'spam'))
+data = data.append(dataFrameFromDirectory('emails/ham', 'ham'))
 
 
 #print(data.describe())
